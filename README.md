@@ -36,7 +36,8 @@ import {numberFormat} from 'number-helpers';
 
 numberFormat(123456.789, 2, '.', ',');    // 123,456.78
 numberFormat(123456.789, 0, '.', ',');    // 123,456
-numberFormat(123456.789, null);           // 123,456.789
+numberFormat(123456.789, null, '.', ','); // 123,456.789
+numberFormat(123456.789);                 // 123,456.789
 ```
 
 ### randomNumber
