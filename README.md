@@ -13,7 +13,7 @@ npm install number-helpers
 
 Rounding means replacing a number with an approximate value that has a shorter, simpler, or more explicit representation. For example, replacing 23.4476 with 23.45. (From Wikipedia.)
 
-__round(number, decimals = 0)__
+`round(number, decimals = 0)`
 
 ```javascript
 import {round} from 'number-helpers';
@@ -29,7 +29,7 @@ round(123.567, 0);  // 124
 
 Formats a number with manually set thousands/decimal separators. does not affect number of decimals when correspond parameter is not a number
 
-__numberFormat(number, decimals = null, decimalSeparator = '.', thousandsSeparator = ',')__
+`numberFormat(number, decimals = null, decimalSeparator = '.', thousandsSeparator = ',')`
 
 ```javascript
 import {numberFormat} from 'number-helpers';
@@ -43,7 +43,7 @@ numberFormat(123456.789, null);           // 123,456.789
 
 Generates a random number between `min` and `max`.
 
-__randomNumber(min, max)__
+`randomNumber(min, max)`
 
 ```javascript
 import {randomNumber} from 'number-helpers';
