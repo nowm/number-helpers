@@ -1,5 +1,5 @@
 {
-  "name": "number-helpers",
+  "name": "simple-number-helpers",
   "version": "1.0.1",
   "description": "Few simple helpers for numbers. ",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nowm/number-helpers.git"
+    "url": "git+https://github.com/nowm/simple-number-helpers.git"
   },
   "keywords": [
     "numbers",
@@ -21,7 +21,7 @@
   "author": "nowm",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nowm/number-helpers/issues"
+    "url": "https://github.com/nowm/simple-number-helpers/issues"
   },
-  "homepage": "https://github.com/nowm/number-helpers#readme"
+  "homepage": "https://github.com/nowm/simple-number-helpers#readme"
 }
