@@ -1,10 +1,11 @@
 # simple-number-helpers
+
 Few simple helpers for numbers.
 
 ## Installation
 
 ```shell
-npm install number-helpers
+npm install simple-number-helpers
 ```
 
 ## Functions
@@ -16,7 +17,7 @@ Rounding means replacing a number with an approximate value that has a shorter, 
 `round(number, decimals = 0)`
 
 ```javascript
-import {round} from 'number-helpers';
+import {round} from 'simple-number-helpers';
 
 round(123.4567, 3); // 123.457
 round(123.4567, 2); // 123.46
@@ -32,7 +33,7 @@ Formats a number with manually set thousands/decimal separators. does not affect
 `numberFormat(number, decimals = null, decimalSeparator = '.', thousandsSeparator = ',')`
 
 ```javascript
-import {numberFormat} from 'number-helpers';
+import {numberFormat} from 'simple-number-helpers';
 
 numberFormat(123456.789, 2, '.', ',');    // 123,456.78
 numberFormat(123456.789, 0, '.', ',');    // 123,456
@@ -47,7 +48,7 @@ Generates a random number between `min` and `max`.
 `randomNumber(min, max)`
 
 ```javascript
-import {randomNumber} from 'number-helpers';
+import {randomNumber} from 'simple-number-helpers';
 
 randomNumber(10, 20); // 11
 ```
