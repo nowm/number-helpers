@@ -11,17 +11,18 @@ npm install number-helpers
 
 ### round
 
-Rounding means replacing a number with an approximate value that has a shorter, simpler, or more explicit representation. For example, replacing $23.4476 with $23.45. (From Wikipedia.)
+Rounding means replacing a number with an approximate value that has a shorter, simpler, or more explicit representation. For example, replacing 23.4476 with 23.45. (From Wikipedia.)
 
 __round(number, decimals = 0)__
 
 ```javascript
 import {round} from 'number-helpers';
 
-round(123.4567, 3); // 123.456
-round(123.4567, 2); // 123.45
-round(123.4567, 1); // 123.4
+round(123.4567, 3); // 123.457
+round(123.4567, 2); // 123.46
+round(123.4567, 1); // 123.5
 round(123.4567, 0); // 123
+round(123.567, 0);  // 124
 ```
 
 ### numberFormat
