@@ -1,6 +1,6 @@
 {
   "name": "simple-number-helpers",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Few simple helpers for numbers. ",
   "main": "index.js",
   "scripts": {
