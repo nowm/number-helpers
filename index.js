@@ -61,6 +61,9 @@ function numberFormat(number, decimals = null, decimalSeparator = '.', thousands
     }
 
     let [integer, fraction] = number.toString().split('.');
+    if (typeof fraction !== "string") {
+        fraction = '';
+    }
 
     let newDecimals = decimals;
     if (!isNumber(newDecimals)) {
