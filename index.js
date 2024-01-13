@@ -94,7 +94,7 @@ function randomNumber(min, max) {
         [newMin, newMax] = [newMax, newMin];
     }
 
-    return Math.floor(Math.random() * (newMax - newMin) + newMin);
+    return Math.floor(Math.random() * (newMax - newMin + 1) + newMin);
 }
 
 module.exports = {
